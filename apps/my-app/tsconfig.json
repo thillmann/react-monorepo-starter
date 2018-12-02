@@ -1,0 +1,13 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"outDir": "../../build/dist/apps/my-app",
+		"rootDir": "src",
+		"jsx": "react"
+	},
+	"exclude": [
+		"src/setupTests.ts",
+		"**/*.test.tsx"
+	]
+}
